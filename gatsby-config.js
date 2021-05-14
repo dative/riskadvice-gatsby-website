@@ -32,7 +32,9 @@ module.exports = {
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
         purgeCSSOptions: {
           // https://purgecss.com/configuration.html#options
-          // safelist: ['safelist'], // Don't remove this selector
+          safelist: {
+            greedy: [/dropdown$/, /show$/],
+          }, // Don't remove this selector
         },
       },
     },

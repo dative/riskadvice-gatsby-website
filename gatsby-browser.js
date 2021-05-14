@@ -4,5 +4,5 @@
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
-import { Dropdown } from 'bootstrap'
+import './src/styles/site.scss'
+import 'bootstrap/dist/js/bootstrap.bundle'

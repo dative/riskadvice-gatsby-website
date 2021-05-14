@@ -28,9 +28,9 @@ const SiteHeader = () => {
               {phoneNumber && (
                 <>
                   <span className="fw-light m-1 d-none d-lg-inline">Call or Text:</span>
-                  <Link href={`tel:${phoneNumber.value}`} className="text-decoration-none text-dark fw-bold m-1 fs-6">
+                  <a href={`tel:${phoneNumber.value}`} className="text-decoration-none text-dark fw-bold m-1 fs-6">
                     {phoneNumber.label}
-                  </Link>
+                  </a>
                 </>
               )}
               <Link to="/#call-to-action" className="btn btn-primary ms-2">

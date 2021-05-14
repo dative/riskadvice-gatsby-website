@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const mainNavLinks = [
   {
-    link: '/personal-insurance',
+    link: '/',
     label: 'Personal Insurance',
     children: [
       { link: '/#', label: 'Action' },
@@ -12,7 +12,7 @@ const mainNavLinks = [
     ],
   },
   {
-    link: '/business-insurance',
+    link: '/',
     label: 'Business Insurance',
     children: [
       { link: '/#', label: 'Action' },
@@ -21,7 +21,7 @@ const mainNavLinks = [
     ],
   },
   {
-    link: '/about-us',
+    link: '/',
     label: 'About Us',
     children: [
       { link: '/#', label: 'Action' },
@@ -30,7 +30,7 @@ const mainNavLinks = [
     ],
   },
   {
-    link: '/resources',
+    link: '/',
     label: 'Resources',
     children: [
       { link: '/#', label: 'Action' },
@@ -39,7 +39,7 @@ const mainNavLinks = [
     ],
   },
   {
-    link: '/contact',
+    link: '/',
     label: 'Contact',
   },
 ]
