@@ -14,7 +14,7 @@ const SiteHeader = () => {
   return (
     <header className="SiteHeader">
       <div className="py-2">
-        <div className="container d-flex flex-column-reverse flex-lg-row justify-content-between">
+        <div className="container-fluid container-lg d-flex flex-column-reverse flex-lg-row justify-content-between">
           <div className="d-flex justify-content-between align-items-center">
             <Link className="SiteHeader--brand text-decoration-none" to="/">
               <RiskAdviceLogo />
@@ -40,7 +40,7 @@ const SiteHeader = () => {
           </div>
         </div>
         <nav className="navbar navbar-expand-lg" aria-label="Tenth navbar example">
-          <div className="container">
+          <div className="container-fluid container-lg">
             <div className="collapse navbar-collapse justify-content-md-between" id="site-header-navbar">
               <NavMenu />
               <NavSearchForm />

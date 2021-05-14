@@ -6,7 +6,7 @@ const mainNavLinks = [
     link: '/',
     label: 'Personal Insurance',
     children: [
-      { link: '/#', label: 'Action' },
+      { link: '/sample-page', label: 'Sample Page' },
       { link: '/#', label: 'Action' },
       { link: '/#', label: 'Action' },
     ],

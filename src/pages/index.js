@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import Seo from '../components/seo'
@@ -13,7 +12,7 @@ const IndexPage = () => (
     <HeroBanner />
     <SecondaryBanner />
 
-    <div className="container col-xxl-10 px-4 py-5" id="hanging-icons">
+    <div className="container col-xxl-10 px-4 py-5">
       <h2 className="pb-2 text-center" style={{ fontWeight: 900 }}>
         Serving our clients for over 45 years.
       </h2>
