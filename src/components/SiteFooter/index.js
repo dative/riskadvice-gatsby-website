@@ -46,7 +46,7 @@ const SiteFooter = () => {
                     className="social-link"
                     target="_blank"
                     rel="noreferrer"
-                    title="MMISI Facebook Page"
+                    title="MMISI Linkedin Page"
                   >
                     <svg width="30" height="30" viewBox="0 0 29 30" fill="none">
                       <path
