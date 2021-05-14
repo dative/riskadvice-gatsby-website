@@ -1,0 +1,14 @@
+.SiteFooter {
+  background-color: var(--bright-blue);
+
+  &--social-media-links {
+    a {
+      color: var(--marigold);
+      transition: 0.2s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

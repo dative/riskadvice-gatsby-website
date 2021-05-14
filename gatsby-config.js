@@ -9,6 +9,12 @@ module.exports = {
       label: `800-800-8990`,
       value: `+18008008990`,
     },
+    socialMedia: {
+      facebook: `https://www.facebook.com/murrayandmacdonald/`,
+      linkedin: `https://www.linkedin.com/company/murray-and-macdonald/`,
+      twitter: `https://twitter.com/MurrayMacDIns`,
+      youtube: `https://www.youtube.com/channel/UCyFeLtpqCAI7sQqGgQIhxdg`,
+    },
   },
   flags: {
     FAST_DEV: true,

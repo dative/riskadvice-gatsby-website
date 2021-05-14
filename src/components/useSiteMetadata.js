@@ -15,6 +15,12 @@ const useSiteMetadata = () => {
               label
               value
             }
+            socialMedia {
+              facebook
+              linkedin
+              twitter
+              youtube
+            }
           }
         }
       }
