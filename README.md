@@ -1,5 +1,7 @@
 # RiskAdvice.com Gatsby Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cdfc5956-10b5-4b2f-bab4-5b776748872d/deploy-status)](https://app.netlify.com/sites/risk-advice-website/deploys)
+
 ## 🚀 Quick start
 
 1.  **Clone the site.**
