@@ -6,6 +6,7 @@ import Seo from '../components/seo'
 import RichText from '../components/blocks/RichText'
 
 import { RichTextContent } from '../components/blocks/BlocksSampleContent'
+import FeatureImageBlock from '../components/blocks/FeatureImageBlock'
 
 const SamplePage = () => (
   <Layout>
@@ -28,6 +29,10 @@ const SamplePage = () => (
       <RichText>
         <div dangerouslySetInnerHTML={{ __html: RichTextContent }} />
       </RichText>
+
+      <FeatureImageBlock />
+
+      <FeatureImageBlock />
     </div>
   </Layout>
 )
