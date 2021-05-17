@@ -31,3 +31,16 @@ paragraph. Well, not quite, since this is not <em>really</em>
 quoted text, but I hope you understand the point. After all, this
 page does not use HTML markup very normally anyway.</p><cite>Some Author</cite></blockquote>
 `
+
+const fibContent = /* html */ `
+  <p>
+  Is it a Good Idea to Take Your College
+  <br />
+  Child Off Your Auto Insurance Policy?
+  </p>
+`
+
+export const FeatureImageBlockContent = {
+  videoUrl: 'https://www.youtube.com/embed/-NAhnxRdMuQ',
+  content: fibContent,
+}

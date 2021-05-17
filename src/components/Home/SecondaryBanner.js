@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import VideoModal from '../VideoModal'
 
 const SecondaryBanner = () => (
   <div className="container col-xxl-10 px-4 py-5">
     <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div className="col-sm-5">
-        <a href="https://www.youtube.com/watch?v=-NAhnxRdMuQ" className="video-thumb">
+        <VideoModal videoUrl="https://www.youtube.com/embed/-NAhnxRdMuQ">
           <StaticImage
             src="../../images/board-room-video-thumb.jpg"
             className="d-block mx-lg-auto img-fluid"
@@ -15,7 +16,7 @@ const SecondaryBanner = () => (
             formats={['AUTO', 'WEBP', 'AVIF']}
             alt="MMISI Board Room"
           />
-        </a>
+        </VideoModal>
       </div>
       <div className="col-lg-7">
         <h1 className="display-5 fw-bold lh-1 mb-3">We’re not your average insurance company.</h1>

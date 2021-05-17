@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import RichText from '../components/blocks/RichText'
 
-import { RichTextContent } from '../components/blocks/BlocksSampleContent'
+import { RichTextContent, FeatureImageBlockContent as FIBContent } from '../components/blocks/BlocksSampleContent'
 import FeatureImageBlock from '../components/blocks/FeatureImageBlock'
 
 const SamplePage = () => (
@@ -30,9 +30,7 @@ const SamplePage = () => (
         <div dangerouslySetInnerHTML={{ __html: RichTextContent }} />
       </RichText>
 
-      <FeatureImageBlock />
-
-      <FeatureImageBlock />
+      <FeatureImageBlock picture={FIBContent.picture} videoUrl={FIBContent.videoUrl} content={FIBContent.content} />
     </div>
   </Layout>
 )
