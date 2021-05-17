@@ -6,7 +6,7 @@ import VideoModal from '../VideoModal'
 const SecondaryBanner = () => (
   <div className="container col-xxl-10 px-4 py-5">
     <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div className="col-sm-5">
+      <div className="col-12 col-sm-8 col-lg-5">
         <VideoModal videoUrl="https://www.youtube.com/embed/-NAhnxRdMuQ">
           <StaticImage
             src="../../images/board-room-video-thumb.jpg"

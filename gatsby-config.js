@@ -33,7 +33,7 @@ module.exports = {
         purgeCSSOptions: {
           // https://purgecss.com/configuration.html#options
           safelist: {
-            greedy: [/dropdown$/, /show$/, /modal$/, /fade$/],
+            greedy: [/dropdown$/, /modal$/, /modal-backdrop$/, /fade$/, /show$/],
           }, // Don't remove this selector
         },
       },
