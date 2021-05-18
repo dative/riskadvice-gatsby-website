@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { useUID } from 'react-uid'
+import BlockHeader from '../BlockHeader'
 
 const AccordionBlock = ({ title, items }) => {
   const uid = useUID()
@@ -8,7 +9,7 @@ const AccordionBlock = ({ title, items }) => {
   return (
     <div className="block block--accordion py-5">
       <div className="container-fluid container-lg">
-        {title !== undefined && title.length > 0 && <h2 className="text-center fw-bold mb-5">{title}</h2>}
+        {title !== undefined && title.length > 0 && <BlockHeader>{title}</BlockHeader>}
         <div className="accordion accordion-flush" id={`accordion-block-${uid}`}>
           {items !== undefined &&
             items.length &&

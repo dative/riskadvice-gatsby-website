@@ -85,3 +85,21 @@ export const AccordionBlockContent = [
       '<p>Aliquip sit anim enim aute nulla voluptate proident aliquip commodo proident veniam. Minim qui exercitation qui nisi exercitation veniam pariatur. Exercitation ad fugiat sint est aliqua enim.</p><p>Dolore dolore ullamco minim adipisicing. Fugiat dolor qui sint voluptate. Sint aliquip culpa laborum elit consequat anim quis mollit incididunt est pariatur. Consequat veniam elit eu aute voluptate occaecat et ad laboris officia incididunt. Esse sit commodo sit voluptate velit adipisicing minim.</p>',
   },
 ]
+
+export const ArticlesBlockContent = [
+  {
+    title: 'Protect Yourself Against Distracted Drivers',
+    postDate: '2021-4-15',
+    picture: '/images/article-cover.jpg',
+  },
+  {
+    title: 'Protect Yourself Against Distracted Drivers',
+    postDate: '2021-4-15',
+    picture: '/images/article-cover.jpg',
+  },
+  {
+    title: 'Protect Yourself Against Distracted Drivers',
+    postDate: '2021-4-15',
+    picture: '/images/article-cover.jpg',
+  },
+]

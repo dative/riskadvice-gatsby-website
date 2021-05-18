@@ -10,11 +10,14 @@ import {
   FeatureImageBlockContent as FIBContent,
   IconGridBlockContent,
   AccordionBlockContent,
+  ArticlesBlockContent,
 } from '../components/blocks/BlocksSampleContent'
 
 import FeatureImageBlock from '../components/blocks/FeatureImageBlock'
 import IconGridBlock from '../components/blocks/IconGridBlock'
 import AccordionBlock from '../components/blocks/AccordionBlock'
+import FormBlock from '../components/blocks/FormBlock'
+import ArticlesBlock from '../components/blocks/ArticlesBlock'
 
 const SamplePage = () => (
   <Layout>
@@ -43,6 +46,10 @@ const SamplePage = () => (
       <IconGridBlock title="Example Icon Grid Block" items={IconGridBlockContent} />
 
       <AccordionBlock title="Example Accordion Block" items={AccordionBlockContent} />
+
+      <FormBlock />
+
+      <ArticlesBlock title="Related Articles & Resources" items={ArticlesBlockContent} />
     </div>
   </Layout>
 )
