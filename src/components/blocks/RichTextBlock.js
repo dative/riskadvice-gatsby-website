@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const RichText = ({ children }) => (
+const RichTextBlock = ({ children }) => (
   <div className="block block--rich-text py-5">
     <div className="container-fluid container-lg">
       <div className="row">
@@ -11,8 +11,8 @@ const RichText = ({ children }) => (
   </div>
 )
 
-RichText.propTypes = {
+RichTextBlock.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default RichText
+export default RichTextBlock

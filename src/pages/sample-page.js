@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import RichText from '../components/blocks/RichText'
+import RichTextBlock from '../components/blocks/RichTextBlock'
 
 import { RichTextContent, FeatureImageBlockContent as FIBContent } from '../components/blocks/BlocksSampleContent'
 import FeatureImageBlock from '../components/blocks/FeatureImageBlock'
@@ -26,9 +26,9 @@ const SamplePage = () => (
         <h1 className="mb-0">Auto Insurance</h1>
       </header>
 
-      <RichText>
+      <RichTextBlock>
         <div dangerouslySetInnerHTML={{ __html: RichTextContent }} />
-      </RichText>
+      </RichTextBlock>
 
       <FeatureImageBlock picture={FIBContent.picture} videoUrl={FIBContent.videoUrl} content={FIBContent.content} />
     </div>
