@@ -9,10 +9,12 @@ import {
   RichTextContent,
   FeatureImageBlockContent as FIBContent,
   IconGridBlockContent,
+  AccordionBlockContent,
 } from '../components/blocks/BlocksSampleContent'
 
 import FeatureImageBlock from '../components/blocks/FeatureImageBlock'
 import IconGridBlock from '../components/blocks/IconGridBlock'
+import AccordionBlock from '../components/blocks/AccordionBlock'
 
 const SamplePage = () => (
   <Layout>
@@ -38,7 +40,9 @@ const SamplePage = () => (
 
       <FeatureImageBlock picture={FIBContent.picture} videoUrl={FIBContent.videoUrl} content={FIBContent.content} />
 
-      <IconGridBlock items={IconGridBlockContent} />
+      <IconGridBlock title="Example Icon Grid Block" items={IconGridBlockContent} />
+
+      <AccordionBlock title="Example Accordion Block" items={AccordionBlockContent} />
     </div>
   </Layout>
 )

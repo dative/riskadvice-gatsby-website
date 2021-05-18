@@ -15,6 +15,12 @@ $primary: #edb52f;
 
 $font-family-base: "Nunito Sans", sans-serif;
 
+$accordion-bg: transparent;
+$accordion-color: var(--bright-blue);
+$accordion-button-active-bg: transparent;
+$accordion-button-active-color: var(--bright-blue);
+$accordion-button-focus-box-shadow: none;
+
 @import "bootstrap/scss/bootstrap";
 
 @import "./components/modal_video";

@@ -67,3 +67,21 @@ export const IconGridBlockContent = [
     content: 'Donec ullamcorper nulla non metus auctor fringilla.',
   },
 ]
+
+export const AccordionBlockContent = [
+  {
+    question: 'What is a Minimum Compulsory Limit?',
+    answer:
+      '<p>Sint irure ea nisi magna aute proident. Est reprehenderit tempor ipsum ut cillum adipisicing ullamco non ea nostrud irure. Eiusmod dolor excepteur tempor id velit fugiat. Excepteur aute culpa elit commodo reprehenderit labore fugiat sint esse laboris adipisicing dolore deserunt irure. Aute exercitation fugiat quis anim aliqua nulla officia.</p>',
+  },
+  {
+    question: 'Should I take my child off my policy when they leave for college?',
+    answer:
+      '<p>Sint irure ea nisi magna aute proident. Est reprehenderit tempor ipsum ut cillum adipisicing ullamco non ea nostrud irure. Eiusmod dolor excepteur tempor id velit fugiat. Excepteur aute culpa elit commodo reprehenderit labore fugiat sint esse laboris adipisicing dolore deserunt irure. Aute exercitation fugiat quis anim aliqua nulla officia.</p>',
+  },
+  {
+    question: 'What if another question is here?',
+    answer:
+      '<p>Aliquip sit anim enim aute nulla voluptate proident aliquip commodo proident veniam. Minim qui exercitation qui nisi exercitation veniam pariatur. Exercitation ad fugiat sint est aliqua enim.</p><p>Dolore dolore ullamco minim adipisicing. Fugiat dolor qui sint voluptate. Sint aliquip culpa laborum elit consequat anim quis mollit incididunt est pariatur. Consequat veniam elit eu aute voluptate occaecat et ad laboris officia incididunt. Esse sit commodo sit voluptate velit adipisicing minim.</p>',
+  },
+]

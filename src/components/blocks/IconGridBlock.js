@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const IconGridBlock = ({ items }) => (
+const IconGridBlock = ({ title, items }) => (
   <div className="block block--icon-grid py-5">
     <div className="container-fluid container-lg">
+      {title !== undefined && title.length > 0 && <h2 className="text-center fw-bold mb-5">{title}</h2>}
       <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-2 g-lg-3">
         {items !== undefined &&
           items.length &&
@@ -28,6 +29,7 @@ const IconGridBlock = ({ items }) => (
 )
 
 IconGridBlock.propTypes = {
+  title: PropTypes.string,
   items: PropTypes.array.isRequired,
 }
 
