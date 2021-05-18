@@ -27,10 +27,14 @@ const SamplePage = () => (
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb mb-0">
             <li className="breadcrumb-item">
-              <Link to="/">Home</Link>
+              <Link to="/" className="text-decoration-none">
+                Home
+              </Link>
             </li>
             <li className="breadcrumb-item">
-              <Link to="/">Personal Insurance</Link>
+              <Link to="/" className="text-decoration-none">
+                Personal Insurance
+              </Link>
             </li>
           </ol>
         </nav>
