@@ -44,3 +44,26 @@ export const FeatureImageBlockContent = {
   videoUrl: 'https://www.youtube.com/embed/-NAhnxRdMuQ',
   content: fibContent,
 }
+
+export const IconGridBlockContent = [
+  {
+    icon: 'car-bump.svg',
+    title: 'Accidenta Damage',
+    content: 'Donec ullamcorper nulla non metus auctor fringilla.',
+  },
+  {
+    icon: 'car-bump.svg',
+    title: 'Uninsured Drivers',
+    content: 'Donec ullamcorper nulla non metus auctor fringilla.',
+  },
+  {
+    icon: 'car-bump.svg',
+    title: 'Rental Vehicles',
+    content: 'Donec ullamcorper nulla non metus auctor fringilla.',
+  },
+  {
+    icon: 'car-bump.svg',
+    title: 'Roadside Assitance',
+    content: 'Donec ullamcorper nulla non metus auctor fringilla.',
+  },
+]

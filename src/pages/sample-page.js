@@ -5,8 +5,14 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import RichTextBlock from '../components/blocks/RichTextBlock'
 
-import { RichTextContent, FeatureImageBlockContent as FIBContent } from '../components/blocks/BlocksSampleContent'
+import {
+  RichTextContent,
+  FeatureImageBlockContent as FIBContent,
+  IconGridBlockContent,
+} from '../components/blocks/BlocksSampleContent'
+
 import FeatureImageBlock from '../components/blocks/FeatureImageBlock'
+import IconGridBlock from '../components/blocks/IconGridBlock'
 
 const SamplePage = () => (
   <Layout>
@@ -31,6 +37,8 @@ const SamplePage = () => (
       </RichTextBlock>
 
       <FeatureImageBlock picture={FIBContent.picture} videoUrl={FIBContent.videoUrl} content={FIBContent.content} />
+
+      <IconGridBlock items={IconGridBlockContent} />
     </div>
   </Layout>
 )
