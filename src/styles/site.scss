@@ -85,3 +85,40 @@ $accordion-button-focus-box-shadow: none;
     }
   }
 }
+
+.block--form {
+  &--content {
+    background-color: var(--bright-blue);
+    color: #fff;
+    max-width: 320px;
+
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+
+    @include media-breakpoint-up(md) {
+      border-top-right-radius: 0;
+      border-bottom-left-radius: $border-radius;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &--form-fields {
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      border-bottom-left-radius: 0;
+      border-top-right-radius: $border-radius;
+    }
+
+    form {
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

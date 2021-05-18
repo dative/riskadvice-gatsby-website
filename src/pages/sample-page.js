@@ -38,6 +38,7 @@ const SamplePage = () => (
       </header>
 
       <RichTextBlock>
+        {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{ __html: RichTextContent }} />
       </RichTextBlock>
 
