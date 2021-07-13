@@ -5,19 +5,8 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import RichTextBlock from '../components/blocks/RichTextBlock'
 
-import {
-  RichTextContent,
-  FeatureImageBlockContent as FIBContent,
-  IconGridBlockContent,
-  AccordionBlockContent,
-  ArticlesBlockContent,
-} from '../components/blocks/BlocksSampleContent'
-
-import FeatureImageBlock from '../components/blocks/FeatureImageBlock'
-import IconGridBlock from '../components/blocks/IconGridBlock'
-import AccordionBlock from '../components/blocks/AccordionBlock'
+import { RichTextContent } from '../components/blocks/BlocksSampleContent'
 import FormBlock from '../components/blocks/FormBlock'
-import ArticlesBlock from '../components/blocks/ArticlesBlock'
 
 const BlogDetail = () => (
   <Layout>
@@ -52,12 +41,6 @@ const BlogDetail = () => (
         {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{ __html: RichTextContent }} />
       </RichTextBlock>
-
-      <FeatureImageBlock picture={FIBContent.picture} videoUrl={FIBContent.videoUrl} content={FIBContent.content} />
-
-      <IconGridBlock title="Example Icon Grid Block" items={IconGridBlockContent} />
-
-      <AccordionBlock title="Example Accordion Block" items={AccordionBlockContent} />
 
       <FormBlock />
     </div>
