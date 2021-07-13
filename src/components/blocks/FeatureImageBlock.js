@@ -28,9 +28,9 @@ const FeatureImageBlock = ({ picture, videoUrl, content }) => (
 )
 
 FeatureImageBlock.propTypes = {
-  picture: PropTypes.string.isRequired,
-  videoUrl: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
+  picture: PropTypes.string,
+  videoUrl: PropTypes.string,
+  content: PropTypes.string,
 }
 
 export default FeatureImageBlock
