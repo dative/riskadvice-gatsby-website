@@ -54,7 +54,7 @@ const mainNavLinks = [
     ],
   },
   {
-    link: '/',
+    link: '/contact',
     label: 'Contact',
   },
 ]
