@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import BlockHeader from '../BlockHeader'
+import ArticleCard from '../ArticleCard'
 
 const ArticlesBlock = ({ title, items }) => (
   <div className="block block--articles py-5">
@@ -11,23 +12,13 @@ const ArticlesBlock = ({ title, items }) => (
         {items !== undefined &&
           items.length &&
           items.map((item, index) => (
-            <div className="col" key={`block--articles--article-${index}`}>
-              <Link to="/" className="card border-0 shadow-sm text-decoration-none">
-                <img src={item.picture} className="card-img-top" alt="Article Cover" />
-                <div className="card-body">
-                  <p className="card-text">
-                    <small className="text-muted">
-                      {new Date(item.postDate).toLocaleDateString('en-US', {
-                        year: 'numeric',
-                        month: 'short',
-                        day: 'numeric',
-                      })}
-                    </small>
-                  </p>
-                  <h5 className="card-title">{item.title}</h5>
-                </div>
-              </Link>
-            </div>
+            <ArticleCard
+              key={`block--articles--article-${index}`}
+              title={item.title}
+              to="/blog-detail"
+              postDate={item.postDate}
+              coverPicture={item.picture}
+            />
           ))}
       </div>
     </div>
