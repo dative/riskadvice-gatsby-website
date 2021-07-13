@@ -3,14 +3,9 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import RichTextBlock from '../components/blocks/RichTextBlock'
 
-import {
-  ArticlesBlockContent,
-} from '../components/blocks/BlocksSampleContent'
 import ArticleCard from '../components/ArticleCard'
 import Pagination from '../components/Pagination'
-
 
 const Blog = () => (
   <Layout>
@@ -46,7 +41,6 @@ const Blog = () => (
       </div>
 
       <Pagination />
-
     </div>
   </Layout>
 )
